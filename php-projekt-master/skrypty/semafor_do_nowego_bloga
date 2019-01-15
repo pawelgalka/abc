@@ -1,0 +1,25 @@
+1
+
+
+//
+// if (document.cookie.length == 0)
+//     document.cookie = "href='styl.css'";
+// var style = document.cookie.split(';')[0].substring(6,document.cookie.length-1);
+// console.log(style);
+// document.getElementById('pagestyle').href = style;
+// var ul = document.getElementById("dynamic-list");
+// var styleSheets = document.styleSheets;
+// for (var i=0; i < styleSheets.length; i++){
+//     var styleSheet = styleSheets[i];
+//     styleSheet.disabled= true;
+//     console.log(styleSheet.disabled);
+//     var li = document.createElement("li");
+//     var btn = document.createElement("button");
+//     btn.setAttribute('value',styleSheet.href);
+//     var link = styleSheet.href;
+//     btn.addEventListener("click",function (){changeStyle(this.value);});
+//     // btn.setAttribute('onclick',link);
+//     btn.innerText = styleSheet.href;
+//     li.appendChild(btn);
+//     ul.appendChild(li);
+// }
